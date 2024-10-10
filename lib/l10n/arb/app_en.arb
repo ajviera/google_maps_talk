@@ -1,0 +1,43 @@
+{
+    "@@locale": "en",
+    "home": "Home",
+    "@home": {
+        "description": "Text shown on the home page"
+    },
+    "unknownError": "Something went wrong.",
+    "@unknownError": {
+        "description": "Text shown when an unknown error occurs"
+    },
+    "appTitle": "Google Maps Talk",
+    "@appTitle": {
+        "description": "App title"
+    },
+    "goToMaps": "Go to Maps",
+    "@goToMaps": {
+        "description": "Button to navigate to the Maps view"
+    },
+    "calculateRoute": "Calculate Route",
+    "@goToMaps": {
+        "description": "Button to calculate a route"
+    },
+    "availableMapApps": "Available map applications",
+    "@availableMapApps": {
+        "description": "Title of the bottom sheet showing the map applications available on the device"
+    },
+    "availableMapAppsMenu": "Navigate using installed navigation apps",
+    "@availableMapAppsMenu": {
+        "description": "Title of the bottom sheet button"
+    },
+    "add": "Add",
+    "@add": {
+        "description": "Add Button title"
+    },
+    "clear": "Clear ",
+    "@clear": {
+        "description": "Clear Button title"
+    },
+    "noRoute": "No Route",
+    "@noRoute": {
+        "description": "Error message if there is no routes"
+    }
+}

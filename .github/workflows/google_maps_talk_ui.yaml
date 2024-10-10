@@ -1,0 +1,23 @@
+name: google_maps_talk_ui
+
+concurrency:
+  group: $-$
+  cancel-in-progress: true
+
+on:
+  pull_request:
+    paths:
+      - "packages/google_maps_talk_ui/**"
+      - ".github/workflows/google_maps_talk_ui.yaml"
+
+jobs:
+  build:
+    uses: VeryGoodOpenSource/very_good_workflows/.github/workflows/flutter_package.yml@v1
+    with:
+      coverage_excludes: "**/*.g.dart"
+      flutter_channel: stable
+      flutter_version: 3.24.3
+      working_directory: packages/google_maps_talk_ui
+      min_coverage: 80
+      analyze_directories: lib gallery test
+      format_directories: lib gallery test

@@ -1,0 +1,20 @@
+name: gallery
+description: Gallery project to showcase google_maps_talk_ui
+version: 0.0.1
+publish_to: none
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_asset_generator: ^1.0.2
+  google_maps_talk_ui:
+    path: ../
+
+dev_dependencies:
+  very_good_analysis: ^5.1.0
+
+flutter:
+  uses-material-design: true
